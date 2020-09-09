@@ -1,0 +1,104 @@
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.navbar-header img {
+    width: 150px;
+    padding: 15px;
+}
+@media screen and (max-width: 860px) {
+    .f{
+        float: left;
+    }
+}
+@media screen and (min-width: 860px){
+    .f{
+        float: right;
+    }
+
+}
+.navbar-default{
+    background-color: #191e29;
+}
+.navbar-default .navbar-nav > .active > a{
+    color: #777;
+    background-color: #191e29;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+    background-color:  #191e29;
+    color: #dd501c;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #dd501c;
+}
+.navbar-nav{
+    background-color: #191e29;
+}
+.btn-default {
+    background-color: #191e29;
+    color: #777;
+    font-weight: 500;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.btn-default:hover{
+    background-color: #11aa8c;
+    color: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+    background-color:#191e29;
+}
+
+.contain{
+    max-width: 1200px;
+    width: 100%;
+   margin-left: auto;
+    margin-right: auto;
+}
+.contain .row {
+    margin-left:  0;
+    margin-right: 0;
+}
+.footer-area{
+   border: 1px solid rebeccapurple;
+    background-color: #191e29;
+}
+.footer-widget a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #636469;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 5px;
+
+
+}
+.footer-widget img  {
+    margin-top: 20px;
+}
+.footer-widget h4 {
+    margin-bottom: 10px;
+}
+
+.footer-widget a{
+    margin-right: 25px;
+}
+.footer-widget a .icon{
+    top: 5px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+
+}
+.footer-widget a:hover{
+    background-color: white;
+}

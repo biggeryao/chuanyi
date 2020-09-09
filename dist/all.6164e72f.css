@@ -1,0 +1,96 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.full-course-classify {
+    padding: 20px 15px 20px 15px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.full-course-classify ul {
+    font-size: 15px;
+}
+
+.full-course-classify ul li {
+    display: inline;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 12px;
+
+}
+
+.full-course-classify ul li a {
+    color: black;
+}
+
+.full-course-classify ul li:hover {
+    background-color: #08bf91;
+    color: white;
+}
+
+.full-course-classify ul li a:hover {
+    background-color: #08bf91;
+    color: white;
+}
+
+.full-course-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+}
+
+.full-course-list div {
+    box-shadow: 3px 3px 6px #999;
+    width: 30%;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+
+.pagination > li > a, .pagination > li > span {
+    border: none;
+}
+
+.logIn{
+border: 1px solid #999999;
+    background-color: white;
+}
+.logIn div {
+
+}
+.logIn-btn{
+    border-bottom: 1px solid #f4f4f4;
+    text-align: center;
+    margin: 20px 30px 10px;
+    padding-bottom: 10px;
+}
+.logIn-btn button {
+    width: 125px;
+    height: 40px;
+    border: 1px solid #00cc99;
+    background-color: white;
+}
+.logIn-btn button:hover{
+    background-color:#00cc99 ;
+    border: 1px solid #2cb96b;
+    color: white;
+}
+.hot-course{
+    padding: 15px;
+    background-color: white;
+    margin-top: 20px;
+}
+.hot-course-list div{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.hot-course img {
+    width: 25px;
+
+}
+
+/*# sourceMappingURL=/all.6164e72f.css.map */
