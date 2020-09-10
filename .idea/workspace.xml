@@ -24,24 +24,37 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7819d2b9-0d80-44e1-ba07-eb9d45c51397" name="Default Changelist" comment="">
+    <list default="true" id="7819d2b9-0d80-44e1-ba07-eb9d45c51397" name="Default Changelist" comment="修改跳转链接">
       <change beforePath="$PROJECT_DIR$/.cache/33/282deaeabd3aa252f0fd637ed76f35.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/33/282deaeabd3aa252f0fd637ed76f35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/90/df6d700d525f185b2f359903f07b82.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/90/df6d700d525f185b2f359903f07b82.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/a3/8252fcc2b464fbf7553f4b3c9f4442.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/a3/8252fcc2b464fbf7553f4b3c9f4442.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/a4/91854f9026e46a1ba8da05baa4f93b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/a4/91854f9026e46a1ba8da05baa4f93b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b2/98ef9c41c898566d489ae7b151ed27.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b2/98ef9c41c898566d489ae7b151ed27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f5/37a23cc879de9f71e2c242738240b5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/f5/37a23cc879de9f71e2c242738240b5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/xunlianyun.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/xunlianyun.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/all.6164e72f.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.6164e72f.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/all.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/all.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/base.98fd6c19.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.98fd6c19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/base.98fd6c19.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.98fd6c19.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css.967bad95.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.967bad95.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css.967bad95.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.967bad95.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/shouye.64153863.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/shouye.64153863.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/shouye.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/shouye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/shouye.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/shouye.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/taolunqun.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/taolunqun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/xunlianyun.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shouye.html" beforeDir="false" afterPath="$PROJECT_DIR$/shouye.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taolunqun.html" beforeDir="false" afterPath="$PROJECT_DIR$/taolunqun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunlianyun.html" beforeDir="false" afterPath="$PROJECT_DIR$/xunlianyun.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +99,20 @@
       <recent name="D:\WEB实训\css" />
     </key>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.taolunqun.html">
+    <configuration name="shouye.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WEB实训/shouye.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="taolunqun.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WEB实训/taolunqun.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.taolunqun.html" />
+        <item itemvalue="JavaScript Debug.shouye.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,8 +142,18 @@
       <workItem from="1599674206870" duration="774000" />
       <workItem from="1599674993863" duration="695000" />
       <workItem from="1599675700964" duration="1332000" />
-      <workItem from="1599677054318" duration="769000" />
+      <workItem from="1599677054318" duration="925000" />
+      <workItem from="1599678632502" duration="135000" />
+      <workItem from="1599717718818" duration="1803000" />
     </task>
+    <task id="LOCAL-00001" summary="修改跳转链接">
+      <created>1599677918147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599677918147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -171,19 +208,91 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改跳转链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改跳转链接" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599146283043">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599718374900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599146283043" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599718374900" />
     <state x="631" y="171" key="FileChooserDialogImpl" timestamp="1599677471410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="631" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599677471410" />
+    <state width="1515" height="270" key="GridCell.Tab.0.bottom" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.0.center" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.0.left" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.0.right" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.1.bottom" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.1.center" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.1.left" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.1.right" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.2.bottom" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.2.center" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.2.left" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.2.right" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.3.bottom" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.3.center" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.3.left" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
+    <state width="1515" height="270" key="GridCell.Tab.3.right" timestamp="1599718532810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="270" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1599718532810" />
     <state x="378" y="101" width="996" height="707" key="SettingsEditor" timestamp="1599677347204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="378" y="101" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599677347204" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599677946429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599677946429" />
     <state x="-470" y="287" width="1378" height="494" key="dock-window-1" timestamp="1599552642558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
