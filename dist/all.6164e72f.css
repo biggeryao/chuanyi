@@ -55,18 +55,20 @@ body {
     border: none;
 }
 
-.logIn{
-border: 1px solid #999999;
-    background-color: white;
-}
-.logIn div {
-
+.logIn {
+    padding-bottom: 20px;
 }
 .logIn-btn{
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #d1ccd5;
+    padding: 20px;
     text-align: center;
-    margin: 20px 30px 10px;
-    padding-bottom: 10px;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #d1ccd5;
+    border-radius: 5px;
+    padding: 25px 0px;
 }
 .logIn-btn button {
     width: 125px;

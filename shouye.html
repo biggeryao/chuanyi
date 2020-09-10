@@ -22,7 +22,52 @@
 </head>
 <body>
 
-<div class="headerpage"></div>
+
+<header class="navbar navbar-default" role="navigation" style="border-color: #191e29;border-radius: 0">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img src="img/logo_03.png" alt="">
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="shouye.html">首页</a></li>
+
+                <li class="dropdown">
+                    <a href="all.html" class="dropdown-toggle" data-toggle="dropdown">
+                        课程 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="all.html">学习课程</a></li>
+                        <li><a href="all.html">实践课程</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="taolunqun.html">讨论区</a></li>
+                <li><a href="xunlianyun.html">训练营</a></li>
+            </ul>
+            <div class="f" style="display: flex;margin-top: 5px">
+                    <div class="form-group" style="margin-bottom: 0">
+                        <input type="text" class="form-control" placeholder="Search" style="width: 156px;margin-right: 5px">
+                    </div>
+                    <div>
+                        <button  class="btn btn-login" >登录</button>
+                        <button  class="btn btn-register">注册</button>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
 
 <section class="hero-section">
     <div class="hero-area-1">
@@ -48,7 +93,6 @@
                                     <input type="text" placeholder="密码" required>
                                 </div>
                                 <button type="submit" class="bttn-mid btn-fill w-100">加入传一乐程</button>
-
                             </form>
                             <div class="agree">
                                 点击"加入传一乐程"，表示您已经同意我们的
@@ -239,6 +283,7 @@
 </div>
 <div class="footerpage"></div>
 
+
 </body>
 
 
@@ -247,9 +292,18 @@
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 <script src="//at.alicdn.com/t/font_2045597_fwepgks1yqi.js"></script>
+<script src="js/login.js"></script>
 <script>
     $(".headerpage").load("header.html");
     $(".footerpage").load("footer.html");
+
+    $(".btn-login").click(function (){
+        window.location.href="login.html"
+    })
+    $(".btn-register").click(function (){
+        window.location.href="register.html"
+    })
+
 
 </script>
 </html>
