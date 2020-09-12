@@ -24,42 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7819d2b9-0d80-44e1-ba07-eb9d45c51397" name="Default Changelist" comment="修改跳转链接">
-      <change afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/0d/3098858507e44cc08961ed0d250d8b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/0d/3098858507e44cc08961ed0d250d8b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/33/282deaeabd3aa252f0fd637ed76f35.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/33/282deaeabd3aa252f0fd637ed76f35.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/67/d6c94db894f2365d8eedc99864903b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/67/d6c94db894f2365d8eedc99864903b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/a4/91854f9026e46a1ba8da05baa4f93b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/a4/91854f9026e46a1ba8da05baa4f93b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/b2/98ef9c41c898566d489ae7b151ed27.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b2/98ef9c41c898566d489ae7b151ed27.json" afterDir="false" />
+    <list default="true" id="7819d2b9-0d80-44e1-ba07-eb9d45c51397" name="Default Changelist" comment="完善页面，添加了登录和注册页面，功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all.html" beforeDir="false" afterPath="$PROJECT_DIR$/all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/taolunqun.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/taolunqun.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all.6164e72f.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.6164e72f.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all.6164e72f.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.6164e72f.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all.6164e72f.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.6164e72f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all.6164e72f.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.6164e72f.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/base.98fd6c19.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.98fd6c19.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/base.98fd6c19.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/base.98fd6c19.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css.967bad95.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.967bad95.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css.967bad95.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css.967bad95.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shouye.64153863.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/shouye.64153863.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shouye.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/shouye.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/taolunqun.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/taolunqun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/taolunqun.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/taolunqun.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.d517b98b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xunlianyun.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xunlianyun.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shouye.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shouye.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shouye.html" beforeDir="false" afterPath="$PROJECT_DIR$/shouye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taolunqun.html" beforeDir="false" afterPath="$PROJECT_DIR$/taolunqun.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +121,9 @@
       <workItem from="1599678632502" duration="135000" />
       <workItem from="1599717718818" duration="8150000" />
       <workItem from="1599737684290" duration="4885000" />
+      <workItem from="1599752272232" duration="159000" />
+      <workItem from="1599839515972" duration="2819000" />
+      <workItem from="1599878027706" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="修改跳转链接">
       <created>1599677918147</created>
@@ -161,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599677918147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善页面，添加了登录和注册页面，功能">
+      <created>1599752398784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599752398784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -218,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改跳转链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改跳转链接" />
+    <MESSAGE value="完善页面，添加了登录和注册页面，功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善页面，添加了登录和注册页面，功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1599740431877">
@@ -229,10 +208,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599718374900" />
-    <state x="631" y="171" key="FileChooserDialogImpl" timestamp="1599677471410">
+    <state x="631" y="171" key="FileChooserDialogImpl" timestamp="1599842684034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="631" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599677471410" />
+    <state x="631" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599842684034" />
     <state width="1515" height="270" key="GridCell.Tab.0.bottom" timestamp="1599729398155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -301,10 +280,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="378" y="101" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599677347204" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599719728708">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599752411237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599719728708" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599752411237" />
     <state x="-470" y="287" width="1378" height="494" key="dock-window-1" timestamp="1599552642558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
