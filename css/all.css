@@ -66,8 +66,6 @@ body {
 .welcome {
     display: flex;
     justify-content: center;
-    border: 1px solid #d1ccd5;
-    border-radius: 5px;
     padding: 25px 0px;
 }
 .logIn-btn button {

@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript" src="../3rd/dist/lib/jquery/jquery.js" ></script>
+  <link rel="stylesheet" href="../3rd/dist/css/zui.min.css" />
+  <script type="text/javascript" src="../3rd/dist/js/zui.min.js" ></script>
+  <link rel="stylesheet" href="../3rd/bg/bg.css" />
+  <script src='../3rd/bg/js/prefixfree.min.js'></script>
+  <script src='../3rd/bg/js/stopExecutionOnTimeout.js'></script>
+  <script type="text/javascript" src="../3rd/bg/bg.js" ></script>
+  <script src="../3rd/layer-v3.1.1/layer/layer.js"></script>
+
+  <style>
+    .panel {
+      width: 400px;
+      margin: 100px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+<div class="stars"></div>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    注册
+  </div>
+  <div class="input-group with-padding">
+    <span class="input-group-addon"><i class="icon icon-user"></i></span>
+    <input type="text" class="form-control" id="reg_name" placeholder="用户名">
+  </div>
+  <div class="input-group with-padding">
+    <span class="input-group-addon"><i class="icon icon-key"></i></span>
+    <input type="text" class="form-control" id="reg_password" placeholder="密码">
+  </div>
+  <button class="btn btn-block "id="register_btn" type="button">注册</button>
+</div>
+</body>
+
+<script type="text/javascript">
+  var register_btn = document.getElementById("register_btn");
+  //点击注册触发事件
+  register_btn.addEventListener("click",function(){
+    var user_name = document.getElementById("reg_name").value;
+    var user_password = document.getElementById("reg_password").value;
+    if(user_name.length == 0||user_password.length ==0){
+      alert("请输入需要注册的用户名或密码！");
+    }
+    //注册成功存入localStorage,并且弹回登录界面
+    else{
+      localStorage.setItem(user_name,user_password);
+      alert("注册成功！正在跳转。。。");
+      //注册完成实现延时跳转登录
+      //第二种延时跳转
+      setTimeout(function(){
+        window.location.href = "shouye-1.html";
+      },1000);  //1秒
+    }
+  })
+</script>
+</html>

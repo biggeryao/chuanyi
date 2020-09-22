@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript" src="../3rd/dist/lib/jquery/jquery.js" ></script>
+  <link rel="stylesheet" href="../3rd/dist/css/zui.min.css" />
+  <script type="text/javascript" src="../3rd/dist/js/zui.min.js" ></script>
+  <link rel="stylesheet" href="../3rd/bg/bg.css" />
+  <script src='../3rd/bg/js/prefixfree.min.js'></script>
+  <script src='../3rd/bg/js/stopExecutionOnTimeout.js'></script>
+  <script type="text/javascript" src="../3rd/bg/bg.js" ></script>
+  <script src="../3rd/layer-v3.1.1/layer/layer.js"></script>
+
+  <style>
+    .panel {
+      width: 400px;
+      margin: 100px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+<div class="stars"></div>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    登录
+  </div>
+  <div class="input-group with-padding">
+    <span class="input-group-addon"><i class="icon icon-user"></i></span>
+    <input type="text" class="form-control" id="user_name" placeholder="用户名">
+  </div>
+  <div class="input-group with-padding">
+    <span class="input-group-addon"><i class="icon icon-key"></i></span>
+    <input type="text" class="form-control" id="user_password" placeholder="密码">
+  </div>
+  <div class="input-group with-padding">
+    <span class="input-group-addon"><i class="icon icon-picture"></i></span>
+    <input type="text" class="form-control" placeholder="验证码">
+  </div>
+  <button class="btn btn-block btn-primary" id="doLogin" type="button">登录</button>
+  <button class="btn btn-block "id="register" type="button">注册</button>
+</div>
+</body>
+
+<script type="text/javascript">
+  var login_btn = document.getElementById("doLogin");
+  var register_btn = document.getElementById("register");
+  //登陆按钮实现
+  login_btn.addEventListener("click",function(){
+    var user_name = document.getElementById("user_name").value;
+    var user_password = document.getElementById("user_password").value;
+    var user_nameArr = new Array(localStorage.length);
+    //将储存的记录存入数组中
+    for(i=0;i<localStorage.length;i++){
+      user_nameArr[i] = localStorage.key(i);
+    }
+    if(user_nameArr.includes(user_name)){
+      var store_password = localStorage.getItem(user_name);
+      if(user_password == store_password){
+        confirm("登陆成功，是否前往");  //选择弹框
+        window.location.href = "admin.html";
+
+      } else{
+        alert('密码错误')
+      }
+    }
+    else{
+      alert('用户名不存在')
+    }
+  })
+  //注册按钮实现
+  register_btn.addEventListener("click",function(){
+    window.location.href = 'Register.html';
+  })
+</script>
+</html>

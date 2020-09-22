@@ -1,16 +1,16 @@
 .logIn {
-  padding-bottom: 20px;
+
 }
 .logIn-btn{
-  border-bottom: 1px solid #d1ccd5;
+
   padding: 20px;
   text-align: center;
 }
 .welcome {
   display: flex;
   justify-content: center;
-  border: 1px solid #d1ccd5;
-  border-radius: 5px;
+  border-bottom: 1px solid #d1ccd5;
+
   padding: 25px 0px;
 }
 .problem li {
