@@ -18,8 +18,9 @@
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="../css/index.css">
-  <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/shouye.css">
+
+  <link rel="stylesheet" href="../css/base.css">
   <style>
 
     .mask{
@@ -52,9 +53,20 @@
       display: block;
 
     }
-    .site-word a,p{
+    .site-word{
+      box-shadow: 3px 3px 6px #999;
+    }
+    .site-word a{
+      font-size: 16px;
       margin-left: 10px;
       margin-top: 10px;
+    }
+    .site-word p{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .agree h:hover{
+      color: red;
     }
   </style>
 </head>
@@ -106,6 +118,7 @@
 
 
 
+
 <section class="hero-section">
   <div class="hero-area-1">
     <div class="single-hero blue-overlay" style="background: url('../img/homepage-bg.png') no-repeat center / cover;">
@@ -120,20 +133,20 @@
           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
             <div class="hero-offer">
               <form action="#">
-                <div class="name">
-                  <input type="text" placeholder="昵称" required>
+                <div class="name" >
+                  <input type="text" placeholder="昵称" id="reg_name" required>
                 </div>
                 <div class="email">
                   <input type="text" placeholder="邮箱" required>
                 </div>
-                <div class="password">
-                  <input type="text" placeholder="密码" required>
+                <div class="password" >
+                  <input type="text" placeholder="密码"id="reg_password" required>
                 </div>
-                <button type="submit" class="bttn-mid btn-fill w-100">加入传一乐程</button>
+                <button type="submit" class="bttn-mid btn-fill w-100" id="register_btn">加入传一乐程</button>
               </form>
-              <div class="agree">
+              <div class="agree" >
                 点击"加入传一乐程"，表示您已经同意我们的
-                <a href="">隐私条款</a>
+                <h  id="test1">隐私条款</h>
               </div>
 
             </div>
@@ -178,9 +191,11 @@
 
 
 <section class="course">
+  <div style="text-align: center;font-size: 28px;margin:40px 0">—————学习课程—————</div>
 
   <div class="contain">
     <div class="row">
+
 
       <div class="col-md-4 col-xs-6">
         <div>
@@ -315,6 +330,7 @@
 </section>
 
 <div class="globalMain">
+  <div style="text-align: center;font-size: 28px;margin: 30px 0">—————实践课程—————</div>
 
   <ul class="site">
     <li>
@@ -373,8 +389,136 @@
     </li>
 
   </ul>
+  <div><a href="all-1.html" style="float: right">查看更多></a></div>
 </div>
-<div class="footerpage"></div>
+<footer class="footer-area" style="margin-top: 20px">
+  <div class="contain">
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+        <div class="footer-widget ">
+          <img src="../img/logo_03.png" alt="" style="width: 100px">
+          <ul style="width: 100%">
+            <li>
+              <h4> 动手做实验，轻松学编程</h4>
+            <li>
+            <li>
+              <a href="" class="cl-facebook">
+                <svg class="icon">
+                  <use xlink:href="#icon-weixin"></use>
+                </svg>
+              </a>
+
+              <a href="" class="cl-facebook">
+                <svg class="icon">
+                  <use xlink:href="#icon-weixin"></use>
+                </svg>
+              </a>
+
+
+              <a href="" class="cl-facebook">
+                <svg class="icon">
+                  <use xlink:href="#icon-weixin"></use>
+                </svg>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div class=" footer-nav">
+          <h5>公司</h5>
+          <ul>
+            <li>
+              <a href="">关于我们</a>
+            </li>
+            <li>
+              <a href="">联系我们</a>
+            </li>
+            <li>
+              <a href="">加入我们</a>
+            </li>
+            <li>
+              <a href="">技术博客</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div class=" footer-nav">
+          <h5>合作</h5>
+          <ul>
+            <li>
+              <a href="">我要投稿</a>
+            </li>
+            <li>
+              <a href="">教师合作</a>
+            </li>
+            <li>
+              <a href="">高校合作</a>
+            </li>
+            <li>
+              <a href="">友情链接</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div class=" footer-nav">
+          <h5>服务</h5>
+
+          <ul>
+            <li>
+              <a href="">实战训练营</a>
+            </li>
+            <li>
+              <a href="">会员服务</a>
+            </li>
+            <li>
+              <a href="">实验报告</a>
+            </li>
+            <li>
+              <a href="">常见问题</a>
+            </li>
+            <li>
+              <a href="">隐私条款</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-4">
+        <div class=" footer-nav">
+          <h5>学习路径</h5>
+          <ul>
+            <li>
+              <a href="">python学习路径</a>
+            </li>
+            <li>
+              <a href="">Linux学习路径</a>
+            </li>
+            <li>
+              <a href="">大数据学习路径</a>
+            <li>
+              <a href="">Java学习路径</a>
+            </li>
+            <li>
+              <a href="">PHP学习路径</a>
+            </li>
+            <li>
+              <a href="">全部</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</footer>
+
+
 
 
 </body>
@@ -385,18 +529,46 @@
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 <script src="//at.alicdn.com/t/font_2045597_fwepgks1yqi.js"></script>
+<script src="../3rd/layer-v3.1.1/layer/layer.js"></script>
 <script src="../js/login.js"></script>
 <script>
-  $(".headerpage").load("header.html");
-  $(".footerpage").load("footer.html");
+  $('#test1').on('click', function () {
+    layer.confirm('隐私条款', {
+      btn: ['确定', '取消'] //按钮
 
-  $(".btn-login").click(function (){
-    window.location.href="login.html"
+    })
+
+  });
+
+
+  $(".btn-login").click(function () {
+    window.location.href = "login.html"
   })
-  $(".btn-register").click(function (){
-    window.location.href="register.html"
+  $(".btn-register").click(function () {
+    window.location.href = "register.html"
   })
 
 
+</script>
+<script type="text/javascript">
+  var register_btn = document.getElementById("register_btn");
+  //点击注册触发事件
+  register_btn.addEventListener("click",function(){
+    var user_name = document.getElementById("reg_name").value;
+    var user_password = document.getElementById("reg_password").value;
+    if(user_name.length == 0||user_password.length ==0){
+      alert("请输入需要注册的用户名或密码！");
+    }
+    //注册成功存入localStorage,并且弹回登录界面
+    else{
+      localStorage.setItem(user_name,user_password);
+      alert("注册成功！正在跳转。。。");
+      //注册完成实现延时跳转登录
+      //第二种延时跳转
+      setTimeout(function(){
+        window.location.href = "shouye-1.html";
+      },1000);  //1秒
+    }
+  })
 </script>
 </html>

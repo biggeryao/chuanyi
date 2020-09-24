@@ -93,8 +93,8 @@
       <div style="background-color: white;margin-top: 20px;padding: 30px">
         <div class="layui-tab">
           <ul class="layui-tab-title">
-            <li class="layui-this">学习课程</li>
-            <li>实践课程</li>
+            <li >学习课程</li>
+            <li class="layui-this">实践课程</li>
             <li role="presentation" style="float: right;top: 12px;">
               <a href="#" style="display: inline;padding: 0;color:#d1ccd5">最新</a>
               <span style="color:#d1ccd5 ">/</span>
@@ -104,7 +104,7 @@
 
           </ul>
           <div class="layui-tab-content">
-            <div class="layui-tab-item layui-show"> <div class="full-course-list">
+            <div class="layui-tab-item "> <div class="full-course-list">
               <div>
                 <img src="../img/nba.jpg" alt="" style="width: 100%;">
                 <p>H5初级之NBA官网</p>
@@ -188,7 +188,7 @@
                 </ul>
               </nav>
             </div></div>
-            <div class="layui-tab-item"> <div class="full-course-list">
+            <div class="layui-tab-item layui-show"> <div class="full-course-list">
               <div>
                 <img src="../img/ncn11.jpg" alt="" style="width: 100%;height: 137px">
                 <p>H5初级之NBA官网</p>
@@ -290,8 +290,8 @@
           </div>
         </div>
         <div class="logIn-btn" style="margin: 0px 25px;">
-          <button style="margin-right: 15px" id="login">登录</button>
-          <button id="register">注册</button>
+          <button style="margin-right: 15px">登录</button>
+          <button>注册</button>
         </div>
       </div>
       <div class="hot-course">
@@ -474,12 +474,6 @@
     window.location.href="login.html"
   })
   $(".btn-register").click(function (){
-    window.location.href="register.html"
-  })
-  $("#login").click(function (){
-    window.location.href="login.html"
-  })
-  $("#register").click(function (){
     window.location.href="register.html"
   })
 
